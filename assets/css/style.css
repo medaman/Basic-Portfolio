@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+}
+
+header{
+	border-bottom: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+}
+
+h1, h2{
+	font-size:30px;
+	font-family: Georgia;
+	font-weight: bold;
+}
+
+h1 {
+	color:#fff;
+	margin-left:20%;
+	padding:20px 20px;
+	float:left;
+	background:#4aa8a2;
+}
+
+h2 {
+	color:#38857f;
+	margin-bottom:20px;
+	padding-bottom:20px;
+	border-bottom: 2px solid #ccc;
+}
+
+h3 {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom: 1px solid #ddd;
+	color:#38857f;
+}
+
+nav {
+	margin-right: 20%;
+	padding-top: 25px;
+	float:right;
+	color:#ddd;
+}
+
+nav > a{
+	color:#777;
+	text-decoration: none;
+	padding:5px;
+	font-size:18px;
+}
+
+nav > a:hover {
+		border-radius: 5px;
+    color: white;
+    background-color: #4aa8a2;
+}
+
+
+#mainbody {
+	background-image: url("../images/black-textile-pattern.jpg");
+	padding-bottom:50px;
+	min-height:85vh;
+}
+
+#bodyleft {
+	margin:40px 30px 40px 20%;
+	border-radius: 4px;
+	border: 1px solid #aaa;
+	background-color: white;
+	padding:20px 20px 0px 20px;
+	width:36%;
+	float:left;
+}
+
+#bodyleft:hover, #bodyright:hover {
+	background-color: #efefef;
+}
+
+#profilepic {
+	margin-right: 20px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	width:200px;
+	float:left;
+}
+
+.bodytext {
+	font-family: Arial;
+	line-height: 1.7;
+	color:#444;
+	margin-bottom:20px;
+}
+
+#bodyright{
+	margin:0 20% 0 0 ;
+	border-radius: 4px;
+	border: 1px solid #aaa;
+	margin-top:40px;
+	background-color: white;
+	padding:20px;
+	width:12%;
+	float:left;
+}
+
+.socialicons {
+	width:30%;
+	border: 1px solid #ccc;
+	border-radius:15%;
+	background: white;
+	opacity:;
+}
+
+.socialicons:hover {
+		opacity: 1;
+		border: 3px solid #4aa8a2;
+		background:#4aa8a2;
+}
+
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width:100%;
+	text-align:center;
+	padding:30px;
+	-webkit-column-rule: #eee;
+	-moz-column-rule: #eee;
+	-o-column-rule: #eee;
+	column-rule: #eee;
+	font-size:14px;
+	background:gray;
+	border-top:7px solid #4aa8a2;
+}
+
+.clearfix {
+	clear:both;
+}
