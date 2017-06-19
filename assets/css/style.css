@@ -57,11 +57,10 @@ nav > a{
 }
 
 nav > a:hover {
-		border-radius: 5px;
-    color: white;
-    background-color: #4aa8a2;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #4aa8a2;
 }
-
 
 #mainBody {
 	background-image: url("../images/black-textile-pattern.jpg");
@@ -80,7 +79,7 @@ nav > a:hover {
 }
 
 #bodyLeft:hover, #bodyRight:hover {
-	background-color: #efefef;
+	background-color: #f3f3f3;
 }
 
 #profilePic {
@@ -99,28 +98,31 @@ nav > a:hover {
 }
 
 #bodyRight{
+	text-align: center;
 	margin:0 20% 0 0 ;
 	border-radius: 4px;
 	border: 1px solid #aaa;
 	margin-top:40px;
 	background-color: #fff;
 	padding:20px;
-	width:12%;
+	width:18%;
 	float:left;
 }
 
 .socialIcons {
-	width:30%;
+	width:28%;
 	border: 1px solid #ccc;
-	border-radius:15%;
+	border-radius:20%;
 	background: white;
-	opacity:;
 }
 
 .socialIcons:hover {
-		opacity: 1;
-		border: 3px solid #4aa8a2;
-		background:#4aa8a2;
+	background:#4aa8a2;
+  border: 2px solid #ccc;
+  width:35%;
+  -webkit-transition: width .5s ease-out;
+  -moz-transition: width .5s ease-out;
+  -o-transition: width .5s ease-out;
 }
 
 footer {
