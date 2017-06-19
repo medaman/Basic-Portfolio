@@ -176,3 +176,31 @@ CONTACT - CSS
 	border: #3aa8a2;
 	margin: 12px 0;
 }
+
+/***************************************************************
+PORTFOLIO - CSS
+***************************************************************/
+
+.project {
+	width:45%;
+	float:left;
+	margin:0px 5% 20px 0px;
+	position:relative;
+}
+
+.project > img {
+	width:100%;
+	display: block;
+}
+
+.projectLabel {
+	position:absolute;
+	bottom:6%;
+	width:100%;
+	text-align: center;
+	padding:10px;
+	background-color: #4aa8a2;
+	font-size: 18px;
+	color:#eee;
+	font-weight: bold
+}
