@@ -47,6 +47,16 @@ h3 {
 	color:#38857f;
 }
 
+li {
+	display:inline;
+	padding: 0px 5px;
+	border-right:1px solid #ddd;
+}
+
+li:last-child {
+	border-right:0px;
+}
+
 nav {
 	margin-right: 20%;
 	padding-top: 25px;
@@ -54,14 +64,14 @@ nav {
 	color:#ddd;
 }
 
-nav > a{
+nav > ul > li > a{
 	color:#777;
 	text-decoration: none;
 	padding:5px;
 	font-size:17px;
 }
 
-nav > a:hover {
+nav > ul > li > a:hover {
 	border-radius: 5px;
 	color: #fff;
 	background-color: #4aa8a2;
